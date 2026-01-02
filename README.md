@@ -1,12 +1,18 @@
 
   # 📋 QR Code Generator Pro API - Documentation
 
-  This API generates high-quality, customizable QR codes with options for colors, shapes, and embedded logos. It returns a **PNG image** directly.
+ This API generates high-quality, customizable QR codes with options for colors, shapes, and embedded logos. It returns a **PNG image** directly.
 
-  ## **Endpoint URL**
+  ## **Endpoints URL**
 
   ```
-  POST https://qrapi.wroclawprogramowanie.pl/generate
+  # On Rapidapi
+  POST https://qr-code-generator-pro7.p.rapidapi.com/generate 
+  
+  # On Zylalabs
+  POST https://zylalabs.com/api/11611/qr+code+pro+generator+api/21914/generate+qr+code
+  
+  # On your own host or my server please contact me via https://wroclawprogramowanie.pl/ contact form
   ```
 
   ## **Request Body (JSON)**
@@ -103,7 +109,7 @@
   - **Success (200 OK):** Returns binary `image/png` data.
   - **Error (400 Bad Request):** Returns JSON with error details (e.g. invalid Base64 logo).
 
-  ---
+---
 
   ## Examples
 
